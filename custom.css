@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(246,189,96,.3),rgba(246,189,96,.3)),url(/home/hale/Desktop/new/images/pexels-photomix-company-106344.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 0% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(6, 10, 49);
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    background: #BC6C25;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.details{
+  width: 70%;
+  color: #fff;
+  height: auto;
+  position: absolute;
+  top: 27%;
+  left: 30px;
+  transform: translate(-50% -50%);
+  text-align: left;
+}
+
+.details h1{
+  font-size: 62px;
+  font-weight: bold;
+  color: #750404;
+}
+.details p{
+  margin: (50px 0 40px);
+  color: #fbf9fd;
+  font-size: 23px;
+  text-align: left;
+
+}
+.link_a{
+  padding-top: 10px;
+}
+.x_btn{
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  background: transparent;
+  border: 1px solid white;
+  padding: 12px 36px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 1s;
+}
+.x_btn:hover{
+  background: #750404;
+  border: 1px solid #750404;
+
+}
+
+.parti{
+  width: 80%;
+  text-align: center;
+  padding-top: 80px;
+  margin: auto;
+}
+.parti h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  
+}
+.parti p{
+  font-size: 16px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+  font-weight: 200%;
+}
+.row{
+display: list-item;
+justify-content: space-between;
+position: relative;
+left: -30%;
+}
+.col_a{
+border-radius: 10px;
+position: relative;
+margin-bottom: 10px;
+overflow: hidden;
+}
+
+.col_a img{
+  width: 100%;
+}
+
+
