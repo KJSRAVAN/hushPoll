@@ -151,7 +151,7 @@ nav img{
   font-weight: 200%;
 }
 .row{
-display: list-item;
+display: inline-block;
 justify-content: space-between;
 position: relative;
 left: -30%;
@@ -161,10 +161,34 @@ border-radius: 10px;
 position: relative;
 margin-bottom: 10px;
 overflow: hidden;
+border: solid black 1px;
 }
 
 .col_a img{
-  width: 100%;
+  width: 100px;
 }
 
+.col_b{
+border-radius: 10px;
+position: relative;
+margin-bottom: 10px;
+overflow: hidden;
+border: solid black 1px;
+}
+
+.col_b img{
+  width: 100px;
+}
+
+.col_c{
+border-radius: 10px;
+position: relative;
+margin-bottom: 10px;
+overflow: hidden;
+border: solid black 1px;
+}
+
+.col_c img{
+  width: 100px;
+}
 
